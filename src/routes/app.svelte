@@ -1,7 +1,11 @@
 <script>
-	import MyButton from '../lib/MyButton.svelte';    
+    import Status from '../lib/Status.svelte';
     import User from '../lib/User.svelte';
+    import Patient from '../lib/Patient.svelte';
 </script>
 
+
+<Status/>
 <User/>
-<MyButton/>
+<Patient/>
+

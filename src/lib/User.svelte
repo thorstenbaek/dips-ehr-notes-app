@@ -1,5 +1,6 @@
 <script lang="ts">
-    import {user} from "../stores/smartonfhirstore";
+    import { fhirStore } from "../stores/smartonfhirstore";
+    const { user } = fhirStore;
 </script>
 
 {#if $user && $user.name.length > 0}

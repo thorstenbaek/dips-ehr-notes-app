@@ -6,7 +6,9 @@
     export let value: number = 0;    
     let randomValue: number = 0;
 
-    onMount(fetchPrice());
+    onMount(async () => {
+        await fetchPrice();
+    });
 
     function getRandomInt(min: number, max: number) {
 		const positive = Math.random() > 0.5 ? 1 : -1;
