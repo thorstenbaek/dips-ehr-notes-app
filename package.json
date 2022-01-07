@@ -38,6 +38,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@sveltejs/adapter-node": "^1.0.0-next.60"
+    "@sveltejs/adapter-node": "^1.0.0-next.60",
+    "@types/fhir-js-client": "^1.0.2",
+    "fhirclient": "^2.4.0"
   }
 }
